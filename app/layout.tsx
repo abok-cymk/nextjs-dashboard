@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx(inter.className, "antialiased")}>{children}</body>
+      <body suppressHydrationWarning className={clsx(inter.className, "antialiased")}>{children}</body>
     </html>
   );
 }
